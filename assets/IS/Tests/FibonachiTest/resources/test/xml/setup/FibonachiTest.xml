@@ -15,17 +15,17 @@
         </mock>
         <service folder="Fibonachi.services" name="getFibunachiNumber">
             <input>
-                <file filename="resources/test/xml/data/finInput.xml"/>
+                <file filename="assets/IS/Tests/FibonachiTest/resources/test/xml/data/finInput.xml"/>
             </input>
             <expected>
-                <file filename="resources/test/xml/data/fibExpectedOutput.xml"/>
+                <file filename="assets/IS/Tests/FibonachiTest/resources/test/xml/data/fibExpectedOutput.xml"/>
             </expected>
         </service>
     </webMethodsTestCase>
     <webMethodsTestCase name="TestException">
         <service folder="Fibonachi.services" name="getFibunachiNumber">
             <input>
-                <file filename="resources/test/xml/data/fibWrongInput.xml"/>
+                <file filename="assets/IS/Tests/FibonachiTest/resources/test/xml/data/fibWrongInput.xml"/>
             </input>
             <expected>
                 <exception class="com.wm.lang.flow.FlowException" message="The fibunachi series start from 0."/>
