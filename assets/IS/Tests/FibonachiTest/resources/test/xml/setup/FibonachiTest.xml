@@ -11,7 +11,7 @@
 <webMethodsTestSuite description="" name="Fibonachi Test">
     <webMethodsTestCase name="Straigt Case">
         <mock enabled="false" folder="pub.math" name="subtractInts">
-            <pipeline filename="resources/test/xml/data/mockSubstractIntWrong.xml"/>
+            <pipeline filename="assets/IS/Tests/FibonachiTest/resources/test/xml/data/mockSubstractIntWrong.xml"/>
         </mock>
         <service folder="Fibonachi.services" name="getFibunachiNumber">
             <input>
